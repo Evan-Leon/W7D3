@@ -42,6 +42,7 @@ group :development, :test do
   gem 'rspec-rails' # the rails version of rspec
   gem 'factory_bot_rails' # factory_bot allows us to automatically create models and place them into our test DB
   gem 'rails-controller-testing'
+  gem 'faker'
 end
 
 group :development do
